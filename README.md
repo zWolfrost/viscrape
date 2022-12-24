@@ -3,7 +3,7 @@ A Python script to know when a website got updated by scraping it.
 
 Supports:
 - Webpage screenshots (with cropping that uses a GUI)
-- Web browser extensions (you may use an adblocker)
+- Web browser extensions (uBlock origin shipped by default, for webpage consistency purposes)
 - Cookies loading (to scrape webpages that require authentication)
 - Customization arguments (zoom, interval seconds)
 
@@ -20,8 +20,7 @@ Paste all the files of the "chrome.exe" folder into the "browser" folder.
 
 - [ChromeDriver](https://chromedriver.chromium.org/downloads). Download it the same version as ungoogled chromium (as of now it's v108), then paste it in the "browser" folder.
 
-- You're basically done, but you CAN and SHOULD download an adBlocker for webpage consistency purposes.<br>
-Use [this website](https://standaloneinstaller.com/online-tools/crx-downloader) to download uBlock Origin or similar adblockers and paste it into the "extensions" folder (as .crx file).
+- You're basically done, but if you want to install extensions be sure to use a website like [this](https://standaloneinstaller.com/online-tools/crx-downloader).<br>Download and paste them into the "extensions" folder (as .crx files).
 
 &nbsp;
 ## Arguments
