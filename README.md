@@ -1,5 +1,5 @@
 # viscrape
-A Python script to know when a website got updated by scraping it.
+A Python script to know when a website got updated by taking screenshots of it.
 
 Supports:
 - Webpage screenshots (with cropping that uses a GUI)
