@@ -100,7 +100,7 @@ def getCoordsGUI(image):
          self.beg = QPoint(-2, -2)
          self.end = QPoint(-2, -2)
 
-         self.updateCoords("\"Crop\" the image to get coords")
+         self.updateCoords("Close this window to confirm")
 
          return super(Window, self).resizeEvent(event)
 

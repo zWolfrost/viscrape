@@ -42,3 +42,12 @@ py viscrape.py -c 620,454,893,553 -C gui -z 100 https://www.youtube.com/@YouTube
 ```
 py viscrape.py -c gui -i 20 -s D:/Screenshots/ https://www.amazon.it/dp/B08WHML7GL/
 ```
+
+&nbsp;
+## Screenshots
+
+![Enter commands](https://i.imgur.com/GzLNeIy.png)
+
+![Cropping GUI](https://i.imgur.com/JsOf1jd.png)
+
+![Costant updating](https://i.imgur.com/MnX1xY6.png)
