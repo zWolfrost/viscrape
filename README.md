@@ -18,7 +18,7 @@ To install them run "`pip install -r requirements.txt`".
 Normal chromium or even chrome should be fine, but i've still not tested my program with them.<br>
 Paste all the files of the "chrome.exe" folder into the "browser" folder.
 
-- [ChromeDriver](https://chromedriver.chromium.org/downloads). Download it the same version as ungoogled chromium (as of now it's v108), then paste it in the "browser" folder.
+- [ChromeDriver](https://chromedriver.chromium.org/downloads). Download it the same version as ungoogled chromium, then paste it in the "browser" folder.
 
 - You're basically done, but if you want to install extensions be sure to use a website like [this](https://standaloneinstaller.com/online-tools/crx-downloader).<br>Download and paste them into the "extensions" folder (as .crx files).
 
@@ -29,8 +29,8 @@ Paste all the files of the "chrome.exe" folder into the "browser" folder.
 |:-:            |:-:        | :-:                          |:-
 | --crop        | -c        | `-c 20,10,50,60`             | Screenshot crop coordinates. Default is don't crop.<br>In case of "`-c gui`", a GUI will appear to let the user decide where to crop.
 | --zoom        | -z        | `-z 75`                      | Webpage zoom percent. Default is 100.
-| --interval    | -i        | `-i 10`                      | Interval seconds between scrapes. Default is 5.
-| --cookies     | -C        | `-C "path/to/cookies.json"`  | Path where to get cookies. Default is in the same folder of viscrape.py.<br>In case of "`-C .`", invalid path or cookies not found, no cookies will be used.<br>In case of "`-c gui`", a browser window will open to let you do stuff like logging in and save the cookies.
+| --interval    | -i        | `-i 10`                      | Interval seconds between scrapes. Default is 20.
+| --cookies     | -C        | `-C "path/to/cookies.json"`  | Path where to get cookies. Default is in the same folder of viscrape.py.<br>In case of "`-C .`", invalid path or cookies not found, no cookies will be used.<br>In case of "`-C gui`", a browser window will open to let you do stuff like logging in and will save the cookies.
 | --screenshots | -s        | `-s "path/for/screenshots/"` | Path where to store screenshots. Default is in "screenshots/".<br>In case of "`-s .`" or invalid path, no screenshots will be saved.
 |               |           | `https://any.website.com/`   | Webpage to scrape. Parameter required.
 

@@ -1,0 +1,4 @@
+viscrape/browser/*
+viscrape/screenshots/*
+cookies.json
+__pycache__

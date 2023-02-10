@@ -67,7 +67,7 @@ except Exception:
 
 CROP = None
 ZOOM = "100"
-INTERVALSECS = 5
+INTERVALSECS = 20
 COOKIESPATH = "./cookies.json"
 SCREENSHOTPATH = f"./screenshots/{datetime.today().strftime('%y.%m.%d %H.%M.%S')}/"
 
