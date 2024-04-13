@@ -1,4 +1,6 @@
 # viscrape
+**DEPRECATED! use [wristwatch](https://github.com/zWolfrost/wristwatch) instead.**
+
 A Python script to know when a website got updated by taking screenshots of it.
 
 Supports:
